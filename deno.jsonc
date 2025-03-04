@@ -4,9 +4,12 @@
     "test": "DEBUG=true deno test --allow-import=jspm.dev,deno.land,jsr.io -E=DEBUG,NODE_ENV,PREACT_DEVTOOLS,HOME,HOMEPATH,DENO_DIR -N -R",
     "test-update": "deno task test -W -- --update"
   },
+  "nodeModulesDir": "auto",
   "compilerOptions": {
     "jsx": "react-jsx",
-    "jsxImportSource": "preact"
+    "jsxImportSource": "preact",
+    "jsxPrecompileSkipElements": ["a", "link"],
+    "experimentalDecorators": false
   },
   "imports": {
     "fullsoak": "jsr:@fullsoak/fullsoak@0.16.1",
