@@ -8,6 +8,8 @@ if (import.meta.main) {
   useFullSoak({
     port: 3991,
     controllers: [MyController],
-    componentsDir: import.meta.dirname + "\\things",
+    componentsDir: globalThis.Deno?.build.os === "windows"
+      ? import.meta.dirname + "\\things"
+      : import.meta.dirname + "/things",
   });
 }
