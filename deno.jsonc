@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "DENO_TRACE_PERMISSIONS=1 PREACT_DEVTOOLS=true deno run -E=DEBUG,NODE_ENV,PREACT_DEVTOOLS,HOME,HOMEPATH,DENO_DIR,NAPI_RS_FORCE_WASI,SWC_BINARY_PATH -N=0.0.0.0,jsr.io -R=$PWD --allow-ffi=$HOMEPATH/AppData/Local/deno/npm/registry.npmjs.org/@swc --deny-env=HTTP_PROXY --watch main.ts",
+    "test": "DEBUG=true deno test --allow-import=jspm.dev,deno.land,jsr.io -E=DEBUG,NODE_ENV,PREACT_DEVTOOLS,HOME,HOMEPATH,DENO_DIR -N -R",
+    "test-update": "deno task test -W -- --update"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "preact"
+  },
+  "imports": {
+    "fullsoak": "jsr:@fullsoak/fullsoak@0.16.1",
+    "preact": "npm:preact@10.26.4",
+    "superoak": "https://deno.land/x/superoak@4.8.1/mod.ts",
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/testing": "jsr:@std/testing@1"
+  }
+}
