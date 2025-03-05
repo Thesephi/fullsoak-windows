@@ -22,7 +22,7 @@ What's the difference?
 In "a traditional FullSoak app", the recommended directory structure is:
 
 ```
-fullsoak-example
+fullsoak-app
 |_ src
 |  |_ components
 |  |  |_ Shared
@@ -37,7 +37,7 @@ fullsoak-example
 In this repo, everything feels like a rebellious teenager:
 
 ```
-foo
+fullsoak-app
 |_ ctrl
 |  |_ MyController.ts
 |_ things
@@ -59,3 +59,5 @@ simply stick to the documented setup.
 
 - Project wiki: https://github.com/fullsoak/fullsoak/wiki
 - HackerNews discussions: https://news.ycombinator.com/item?id=43029089
+- A more elaborate example with simple authentication:
+  https://github.com/fullsoak/guestbook-deno-example
