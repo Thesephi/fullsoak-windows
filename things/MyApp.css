@@ -7,3 +7,15 @@ html, body {
 section#my-app {
   padding: 1em 1.5em;
 }
+
+div#source {
+  margin-top: 1em;
+}
+
+button + button {
+  margin-left: 1em;
+}
+
+hr {
+  border-style: dashed;
+}
