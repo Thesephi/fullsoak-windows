@@ -1,10 +1,10 @@
 # FullSoak Windows
 
-An example [FullSoak](https://jsr.io/@fullsoak/fullsoak) App that is:
+An example [FullSoak](https://jsr.io/@fullsoak/fullsoak) App that:
 
 - can be developed on Windows platform (_with_ or _without_ Linux subsystem)
 - can be developed on Unix platform (e.g. MacOS)
-- deployable to [Deno Deploy](https://deno.com/deploy):
+- is deployable to [Deno Deploy](https://deno.com/deploy):
   https://fullsoak-windows.deno.dev
 
 # What's cooking here?
