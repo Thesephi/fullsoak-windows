@@ -21,5 +21,5 @@ snapshot[`MyApp 1`] = `
       "fullsoak": "/fullsoak",
       "@fullsoak/fullsoak": "/fullsoak"
     }
-  }</script><link rel="modulepreload" href="/components/MyApp/mount" as="script" type="text/javascript"/><link rel="modulepreload" href="/components/MyApp/index.tsx" as="script" type="text/javascript"/><script type="text/javascript"></script><style></style></head><body><main id="fullsoak-htmlshell-main"><div>My App</div><div class="box">Box 0</div><button type="button">up</button></main><script type="text/javascript">window.preloadedProps = {}</script><script defer type="module" src="/components/MyApp/mount"></script></body></html>'
+  }</script><link rel="modulepreload" href="/components/MyApp/mount" as="script" type="text/javascript"/><link rel="modulepreload" href="/components/MyApp/index.tsx" as="script" type="text/javascript"/><script type="text/javascript"></script><style></style></head><body><main id="fullsoak-htmlshell-main"><section id="my-app"><h1>My App</h1><span class="box">Box 0</span> <button type="button">up</button></section></main><script type="text/javascript">window.preloadedProps = {}</script><script defer type="module" src="/components/MyApp/mount"></script></body></html>'
 `;
